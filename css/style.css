@@ -1,0 +1,88 @@
+/* Settings for black tiger-page on top of Start page */
+#topdiv{
+    background-color: rgb(5, 5, 5);
+    color: white;
+    height: 100vh;
+    position: relative;
+}
+
+#topdivimage {
+    height: 75vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+}
+
+#topdivimage-wrapper {
+    margin-top: 7vh;
+    width: 50vh;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+#topdivtext{
+    width: 37vw;           
+    font-size: 5vw;
+    position: absolute;
+    bottom: 5%;
+    left: 60%;
+    display: none;
+   
+    
+}
+
+/* ÄNDRA SELEKTORER 
+*/
+/* Height and Background colors for frontpage-divs */
+.frontpart{ /* All front parts */
+    min-height: 100vh;
+    padding: 10% 20% 10% 20%;
+
+    
+}
+
+#front- { /* Part 1: About */
+    background-color: rgb(5, 5, 5);
+    background-size: cover;
+    color: rgb(255, 123, 0);
+}
+
+
+#front-Courses { /* Part 2: Courses-menu + Calendar */
+   
+    color: rgb(255, 123, 0);
+
+}
+
+.frontpart:nth-child(3) { /* Part 3: Images */
+    background-color: rgb(153, 142, 155);
+} 
+
+.frontpart:nth-child(4) { /* Part 4: Quotes */
+    background-image: url("../images/tiger-eyes.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(5, 5, 5);
+}
+
+
+/* För mobil */
+
+@media (max-width: 595px){
+
+    .p-mobile { 
+        margin: 10% 10% 10% 10% !important;
+          }
+
+    .frontpart{ 
+               padding: 0;
+            }
+            
+    .fullwidth {
+        width: 100% !important;
+       
+    }
+
+
+}
+
