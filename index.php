@@ -8,18 +8,7 @@
  */
 
 get_header(); ?>
-
-<div class="grid-x frontpart" id="topdiv">
-
-	<div id="topdivimage-wrapper" class="cell">
-		<img id="topdivimage" src="<?php echo get_stylesheet_directory_uri(); ?>/images/tiger-front.jpg">
-	</div>
-
-	<div class="cell">
-		<h1 id="topdivtext"> THE RAW MAN </h1>
-	</div>
-</div>
-			
+	
 	
 <div class="sections-wrapper">
 	<?php $query = new WP_Query('category_name=frontpage');
